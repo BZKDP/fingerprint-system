@@ -1,0 +1,28 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Biometric / local database (never commit enrolled fingerprints)
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+.env
+*.key
+*.pem
+auth.json
+
+# Build artifacts
+build/
+dist/
+
+# Editors / OS
+.idea/
+.vscode/
+desktop.ini
+Thumbs.db
